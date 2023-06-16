@@ -79,14 +79,14 @@ Hi {}, my name is {}!
 I am an Anime themed group management bot.
 You can find my list of available commands with /help.
 
-See [Basic Configuration Checklist](https://t.me/yuiichansupport/3654) on how to secure your group.
+See [Basic Configuration Checklist](https://t.me/coldbloodnation) on how to secure your group.
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
-If you have any questions on how to use me, head over to @YuiiChanSupport
+If you have any questions on how to use me, head over to @coldbloodnation
 
 *Main* commands available:
  • /start: start the bot
@@ -105,11 +105,11 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/69a84b4548087b06afef4.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/f16e0b154753ad195d498.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+There are two ways of supporting him; [PayPal](https://t.me/kazumikazo), or [Monzo](None)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -223,7 +223,7 @@ def start(update: Update, context: CallbackContext):
                                 text="Support Group", url=f"t.me/{SUPPORT_CHAT}"
                             ),
                             InlineKeyboardButton(
-                                text="Source Code", url="github.com/rshero/YuiiChan"
+                                text="Source Code", url="https://bit.ly/3znhGwC"
                             ),
                         ],
                     ]
